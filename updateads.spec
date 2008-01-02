@@ -8,6 +8,7 @@ URL:		http://prefetch.net/code/updateads.pl.html
 Source0:	http://prefetch.net/code/updateads.pl.bz2
 Requires:	bind
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 updatedads.pl is a Perl script that can be used to retrieve and format the
