@@ -33,3 +33,33 @@ install -m0755 %{name} %{buildroot}%{_bindir}/%{name}
 %files
 %defattr(-,root,root)
 %attr(0755,root,root) %{_bindir}/%{name}
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.0-5mdv2010.0
++ Revision: 434565
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.0-4mdv2009.0
++ Revision: 261777
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.0-3mdv2009.0
++ Revision: 255178
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.0-1mdv2008.1
++ Revision: 140925
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Sep 09 2007 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdv2008.0
++ Revision: 83828
+- Import updateads
+
+
+
+* Tue Aug 22 2006 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdv2007.0
+- initial Mandriva package
