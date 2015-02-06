@@ -1,7 +1,7 @@
 Summary:	Update BIND ad server listings
 Name:		updateads
 Version:	1.0
-Release:	%mkrel 5
+Release:	6
 License:	BSD-like
 Group:		Monitoring
 URL:		http://prefetch.net/code/updateads.pl.html
