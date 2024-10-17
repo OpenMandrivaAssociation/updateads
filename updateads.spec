@@ -4,7 +4,7 @@ Version:	1.0
 Release:	6
 License:	BSD-like
 Group:		Monitoring
-URL:		http://prefetch.net/code/updateads.pl.html
+URL:		https://prefetch.net/code/updateads.pl.html
 Source0:	http://prefetch.net/code/updateads.pl.bz2
 Requires:	bind
 BuildArch:	noarch
